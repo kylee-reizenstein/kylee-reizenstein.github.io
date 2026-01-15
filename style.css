@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  border-bottom: 1px solid #222;
+}
+
+nav a {
+  margin-left: 25px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+section {
+  padding: 80px 50px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.headshot {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.intro {
+  max-width: 650px;
+  margin: auto;
+  opacity: 0.85;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 40px;
+  margin-bottom: 120px;
+  align-items: center;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.experience-list {
+  list-style: none;
+}
+
+.experience-list li {
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  border-top: 1px solid #222;
+  opacity: 0.7;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  section {
+    padding: 60px 25px;
+  }
+}
+
