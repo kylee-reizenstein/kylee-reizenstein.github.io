@@ -214,9 +214,26 @@ footer {
 .project-detail-page .page .project-detail-image {
   margin-bottom: 30px;
 }
-.experience-details p strong {
+/* Experience page titles */
+
+.experience-list > li > strong {
   display: block;
-  font-size: 1.17em;
+  font-size: 1.3rem !important;
   font-weight: 700;
   margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.experience-details p strong {
+  display: block;
+  font-size: 1.15rem !important;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.experience-details p {
+  margin-top: 18px;
+  margin-bottom: 0;
+  line-height: 1.6;
 }
