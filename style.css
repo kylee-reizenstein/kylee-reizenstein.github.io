@@ -214,3 +214,9 @@ footer {
 .project-detail-page .page .project-detail-image {
   margin-bottom: 40px;
 }
+.experience-list > li > strong {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
