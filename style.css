@@ -200,3 +200,17 @@ footer {
   margin: 30px auto 50px;
   border-radius: 8px;
 }
+.project-detail-page .page h3 {
+  margin-top: 35px;
+  margin-bottom: 12px;
+}
+
+.project-detail-page .page p {
+  margin-top: 0;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.project-detail-page .page .project-detail-image {
+  margin-bottom: 40px;
+}
